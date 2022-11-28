@@ -21,6 +21,7 @@ select {
   border-radius: 4px;
   border-color: #b38cab;
   color: rgba(100, 100, 111, 0.8);
+  font-size: 18px;
 }
 .container {
   display: block;
