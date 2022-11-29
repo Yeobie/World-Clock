@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock - Ilaria Vilardi</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.39/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <h1>🌏 World Clock 🌍</h1>
 
     <div class="container">
-      <select name="" id="">
+      <select>
         <option value="">Select a city...</option>
         <option value="">Tokyo</option>
 
@@ -19,21 +21,21 @@
 
         <option value="">Toronto</option>
       </select>
-      <div class="city">
+      <div class="city" id="seoul">
         <div>
           <h2>Seoul</h2>
           <div class="date">November 28th 2022</div>
         </div>
         <div class="time">7:25:30 <small>PM</small></div>
       </div>
-      <div class="city">
+      <div class="city" id="athens">
         <div>
           <h2>Athens</h2>
           <div class="date">November 28th 2022</div>
         </div>
         <div class="time">7:25:30 <small>PM</small></div>
       </div>
-      <div class="city">
+      <div class="city" id="honolulu">
         <div>
           <h2>Honolulu</h2>
           <div class="date">November 28th 2022</div>
