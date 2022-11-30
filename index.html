@@ -13,34 +13,37 @@
     <h1>🌏 World Clock 🌍</h1>
 
     <div class="container">
-      <select>
+      <select id="city">
         <option value="">Select a city...</option>
-        <option value="">Tokyo</option>
+        <option value="Asia/Tokyo">Tokyo</option>
 
-        <option value="">Oslo</option>
+        <option value="Europe/Oslo">Oslo</option>
 
-        <option value="">Toronto</option>
+        <option value="America/Toronto">Toronto</option>
       </select>
-      <div class="city" id="seoul">
-        <div>
-          <h2>Seoul</h2>
-          <div class="date">November 28th 2022</div>
+
+      <div id="cities">
+        <div class="city" id="seoul">
+          <div>
+            <h2>Seoul</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time">7:25:30 <small>PM</small></div>
-      </div>
-      <div class="city" id="athens">
-        <div>
-          <h2>Athens</h2>
-          <div class="date">November 28th 2022</div>
+        <div class="city" id="athens">
+          <div>
+            <h2>Athens</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time">7:25:30 <small>PM</small></div>
-      </div>
-      <div class="city" id="honolulu">
-        <div>
-          <h2>Honolulu</h2>
-          <div class="date">November 28th 2022</div>
+        <div class="city" id="honolulu">
+          <div>
+            <h2>Honolulu</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time">7:25:30 <small>PM</small></div>
       </div>
     </div>
     <footer>
