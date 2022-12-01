@@ -31,11 +31,12 @@ function setTime() {
 setInterval(setTime, 1000);
 
 function updateCity(event) {
-  let selectedTimezone = event.target.value;
-  let cityName = selectedTimezone.split("/")[1];
-  let cityTime = moment().tz(selectedTimezone);
-  let citiesElement = document.querySelector("#cities");
-  citiesElement.innerHTML = `<div class ="city">
+  setInterval(function () {
+    let selectedTimezone = event.target.value;
+    let cityName = selectedTimezone.split("/")[1];
+    let cityTime = moment().tz(selectedTimezone);
+    let citiesElement = document.querySelector("#cities");
+    citiesElement.innerHTML = `<div class ="city">
   <div>
             <h2>${cityName}</h2>
             <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
@@ -43,6 +44,7 @@ function updateCity(event) {
           <div class="time">${cityTime.format(
             "H:mm:ss"
           )} <small>${cityTime.format("A")}</small></div> </div>`;
+  }, 1000);
 }
 
 let citySelection = document.querySelector("#city");
