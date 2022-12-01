@@ -56,6 +56,16 @@ select {
   font-weight: bold;
 }
 
+.back {
+  text-decoration: none;
+  border: 1px solid #b38cab;
+  border-radius: 50px;
+  padding: 12px 15px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
 small {
   font-size: 20px;
   vertical-align: middle;
