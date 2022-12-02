@@ -78,3 +78,45 @@ footer {
 footer a {
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  select {
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 40px 20px;
+    margin: 20px auto;
+  }
+
+  .city {
+    margin: 30px 0px 20px;
+    line-height: 35px;
+    border-bottom: 1px #b38cab dashed;
+  }
+
+  .date {
+    font-size: 13px;
+  }
+
+  .time {
+    font-size: 28px;
+  }
+
+  small {
+    font-size: 15px;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+}
