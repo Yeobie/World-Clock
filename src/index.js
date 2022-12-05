@@ -29,7 +29,7 @@ function setTime() {
 }
 
 setTime();
-//setInterval(setTime, 1000);
+setInterval(setTime, 1000);
 
 function updateCity(event) {
   setInterval(function () {
